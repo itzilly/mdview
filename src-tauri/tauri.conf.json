@@ -1,0 +1,47 @@
+{
+  "build": {
+    "devPath": "../src",
+    "distDir": "../src",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "mdview",
+    "version": "0.0.1"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "fs": {
+        "readFile": true,
+        "scope": ["**"]
+      },
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "windows": [
+      {
+        "title": "mdview",
+        "width": 1000,
+        "height": 750
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "active": false,
+      "targets": "all",
+      "identifier": "com.itzilly.mdview",
+      "icon": [
+        "icons/icon.ico",
+        "icons/icon_clear.ico",
+        "icons/mdview_original.png",
+        "icons/mdview_0.25.png",
+        "icons/mdview_0.5.png",
+        "icons/mdview_0.1.png"
+      ]
+    }
+  }
+}
