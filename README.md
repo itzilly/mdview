@@ -1,6 +1,4 @@
-<a href="https://marked.js.org">
-  <img width="60px" height="60px" src="https://github.com/itzilly/mdview/src-tauri/icons/mdview_original.png" align="right" />
-</a>
+<img width="60px" height="60px" src="https://github.com/itzilly/mdview/src-tauri/icons/mdview_original.png" align="right" />
 
 # MDView
 
