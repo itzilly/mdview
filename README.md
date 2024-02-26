@@ -1,4 +1,4 @@
-<img width="60px" height="60px" src="https://github.com/itzilly/mdview/src-tauri/icons/mdview_original.png" align="right" />
+<img width="60px" height="60px" src="https://github.com/itzilly/mdview/blob/master/src-tauri/icons/mdview_original.png" align="right" />
 
 # MDView
 
