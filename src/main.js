@@ -53,7 +53,6 @@ async function display_file() {
       let html = marked.parse(contents);
       let contentElement = document.getElementById("markdown-div");
       contentElement.innerHTML = DOMPurify.sanitize(html);
-      contentElement.querySelector('.centered').classList.remove('centered')
     } else {
       console.log("Showing default file - failed exists check")
       await show_default_file();
