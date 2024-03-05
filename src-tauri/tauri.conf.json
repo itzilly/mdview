@@ -15,6 +15,9 @@
         "readFile": true,
         "scope": ["**"]
       },
+      "dialog": {
+        "open": true
+      },
       "shell": {
         "all": false,
         "open": true
@@ -36,7 +39,7 @@
       "identifier": "com.itzilly.mdview",
       "icon": [
         "icons/icon.ico",
-        "icons/icon_clear.ico",
+        "icons/icon_filled.ico",
         "icons/mdview_original.png",
         "icons/mdview_0.25.png",
         "icons/mdview_0.5.png",
