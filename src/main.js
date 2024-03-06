@@ -30,6 +30,7 @@ async function show_default_file() {
   document.getElementById("markdown-div").innerHTML = defaultHTML;
 
   document.getElementById("choose-file-button").addEventListener("click", async () => {
+    document.getElementById("stylesheet").setAttribute("href", "./defaut.css")
     const result = await open({
         multiple: false,
         directory: false,
